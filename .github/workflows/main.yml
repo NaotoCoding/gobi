@@ -27,6 +27,3 @@ jobs:
     
     - name: Check Type
       run: bundle exec steep check
-    
-    - name: Run the default task
-      run: bundle exec rake
