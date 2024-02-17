@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 RSpec.describe Gobi do
   it "has a version number" do
     expect(Gobi::VERSION).not_to be nil
