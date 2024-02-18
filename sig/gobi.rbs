@@ -2,3 +2,19 @@ module Gobi
   VERSION: String
   # See the writing guide of rbs: https://github.com/ruby/rbs#guides
 end
+
+class String
+
+  # traditional_gobi
+  def deyansu: -> String
+  def nari: -> String
+  def degozaru: -> String
+
+  # dialect_gobi
+  def ja: -> String
+  def dabe: -> String
+  def zura: -> String
+  def bai: -> String
+  def tai: -> String
+  def yanen: -> String
+end

@@ -14,4 +14,46 @@ RSpec.describe Gobi do
       expect("お団子".nari).to eq "お団子なり"
     end
   end
+
+  describe "#degozaru" do
+    it "文字列の語尾に'でござる'をつけて返す" do
+      expect("お団子".degozaru).to eq "お団子でござる"
+    end
+  end
+
+  describe "#ja" do
+    it "文字列の語尾に'じゃ'をつけて返す" do
+      expect("お団子".ja).to eq "お団子じゃ"
+    end
+  end
+
+  describe "#dabe" do
+    it "文字列の語尾に'だべ'をつけて返す" do
+      expect("お団子".dabe).to eq "お団子だべ"
+    end
+  end
+
+  describe "#zura" do
+    it "文字列の語尾に'ずら'をつけて返す" do
+      expect("お団子".zura).to eq "お団子ずら"
+    end
+  end
+
+  describe "#bai" do
+    it "文字列の語尾に'ばい'をつけて返す" do
+      expect("お団子".bai).to eq "お団子ばい"
+    end
+  end
+
+  describe "#tai" do
+    it "文字列の語尾に'たい'をつけて返す" do
+      expect("お団子".tai).to eq "お団子たい"
+    end
+  end
+
+  describe "#yanen" do
+    it "文字列の語尾に'やねん'をつけて返す" do
+      expect("お団子".yanen).to eq "お団子やねん"
+    end
+  end
 end

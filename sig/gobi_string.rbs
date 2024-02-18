@@ -1,7 +1,0 @@
-# TypeProf 0.21.9
-
-# Classes
-class String
-  def deyansu: -> String
-  def nari: -> String
-end

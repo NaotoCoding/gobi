@@ -2,3 +2,14 @@
 
 - Initial release
 - Added `#deyansu` and `#nari` to Class String
+
+# [0.1.1] - 2024-02-18
+
+- Added these methods to Class String
+  - `#dabe`
+  - `#zura`
+  - `#bai`
+  - `#ja`
+  - `#tai`
+  - `#yanen`
+  - `#degozaru`
