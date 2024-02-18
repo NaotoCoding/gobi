@@ -41,8 +41,15 @@ etc.
 This is mapping of all supported methods and endings.
 
 ```
-#deyansu => "でやんす"
-#nari    => "なり"
+#deyansu  => "でやんす"
+#nari     => "なり"
+#dabe     => "だべ"
+#zura     => "ずら"
+#bai      => "ばい"
+#ja       => "じゃ"
+#tai      => "たい"
+#yanen    => "やねん"
+#degozaru => "でござる"
 ```
 
 ## Development
