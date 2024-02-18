@@ -6,4 +6,8 @@ class String
   def nari
     "#{self}なり"
   end
+
+  def degozaru
+    "#{self}でござる"
+  end
 end

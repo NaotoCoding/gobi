@@ -14,4 +14,10 @@ RSpec.describe Gobi do
       expect("お団子".nari).to eq "お団子なり"
     end
   end
+
+  describe "#degozaru" do
+    it "文字列の語尾に'でござる'をつけて返す" do
+      expect("お団子".degozaru).to eq "お団子でござる"
+    end
+  end
 end
