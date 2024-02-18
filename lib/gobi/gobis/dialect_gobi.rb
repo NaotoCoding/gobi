@@ -17,5 +17,9 @@ class String
   def bai
     "#{self}ばい"
   end
+
+  def tai
+    "#{self}たい"
+  end
   # -----------------------------
 end

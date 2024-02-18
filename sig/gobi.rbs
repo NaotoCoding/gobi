@@ -15,4 +15,5 @@ class String
   def dabe: -> String
   def zura: -> String
   def bai: -> String
+  def tai: -> String
 end

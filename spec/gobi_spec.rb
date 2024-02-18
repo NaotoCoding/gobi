@@ -44,4 +44,10 @@ RSpec.describe Gobi do
       expect("お団子".bai).to eq "お団子ばい"
     end
   end
+
+  describe "#tai" do
+    it "文字列の語尾に'たい'をつけて返す" do
+      expect("お団子".tai).to eq "お団子たい"
+    end
+  end
 end
