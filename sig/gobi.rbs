@@ -12,5 +12,5 @@ class String
 
   # dialect_gobi
   def ja: -> String
-
+  def dabe: -> String
 end
