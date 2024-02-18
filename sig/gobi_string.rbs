@@ -5,4 +5,5 @@ class String
   def deyansu: -> String
   def nari: -> String
   def degozaru: -> String
+  def ja: -> String
 end

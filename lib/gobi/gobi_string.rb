@@ -10,4 +10,8 @@ class String
   def degozaru
     "#{self}でござる"
   end
+
+  def ja
+    "#{self}じゃ"
+  end
 end
