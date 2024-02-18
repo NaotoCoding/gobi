@@ -38,4 +38,10 @@ RSpec.describe Gobi do
       expect("お団子".zura).to eq "お団子ずら"
     end
   end
+
+  describe "#bai" do
+    it "文字列の語尾に'ばい'をつけて返す" do
+      expect("お団子".bai).to eq "お団子ばい"
+    end
+  end
 end
