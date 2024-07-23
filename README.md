@@ -43,6 +43,7 @@ This is mapping of all supported methods and endings.
 ```
 #deyansu  => "でやんす"
 #nari     => "なり"
+#desuwa   => "ですわ"
 #dabe     => "だべ"
 #zura     => "ずら"
 #bai      => "ばい"
