@@ -21,6 +21,12 @@ RSpec.describe Gobi do
     end
   end
 
+  describe "#desuwa" do
+    it "文字列の語尾に'ですわ'をつけて返す" do
+      expect("お団子".desuwa).to eq "お団子ですわ"
+    end
+  end
+
   describe "#ja" do
     it "文字列の語尾に'じゃ'をつけて返す" do
       expect("お団子".ja).to eq "お団子じゃ"

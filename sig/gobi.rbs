@@ -9,6 +9,7 @@ class String
   def deyansu: -> String
   def nari: -> String
   def degozaru: -> String
+  def desuwa: -> String
 
   # dialect_gobi
   def ja: -> String
