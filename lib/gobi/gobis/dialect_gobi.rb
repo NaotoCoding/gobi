@@ -9,7 +9,6 @@ class String
   def dabe
     "#{self}だべ"
   end
-  # -----------------------------
 
   def zura
     "#{self}ずら"
