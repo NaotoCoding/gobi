@@ -4,14 +4,10 @@ module Gobi
 end
 
 class String
-
-  # traditional_gobi
   def deyansu: -> String
   def nari: -> String
   def degozaru: -> String
   def desuwa: -> String
-
-  # dialect_gobi
   def ja: -> String
   def dabe: -> String
   def zura: -> String

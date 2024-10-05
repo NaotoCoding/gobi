@@ -18,3 +18,8 @@
 
 - Added these methods to Class String
   - `#desuwa`
+
+# [1.0.1] - 2024-10-05
+
+- No new feature
+- refactored
